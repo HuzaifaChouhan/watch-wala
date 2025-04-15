@@ -11,9 +11,9 @@ export default function Footer(){
             </div>
             <div class="footer1">Connect with us at
                 <div class="social-media">
-                    <a href="#"><FaInstagram/></a>
-                    <a href="#"><FaWhatsapp/></a>   
-                    <a href="#"><BiLogoGmail/></a>
+                    <a href="/"><FaInstagram/></a>
+                    <a href="/"><FaWhatsapp/></a>   
+                    <a href="/"><BiLogoGmail/></a>
                 </div>
             </div>
             <div class="footer2">

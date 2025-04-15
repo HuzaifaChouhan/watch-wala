@@ -35,6 +35,11 @@ nav a:hover{
     width: auto;
     margin-left: auto;
 }
+.watchwala-logo-a{
+    height: 70px;
+    width: auto;
+    margin-left: auto;
+}
 
 .sidebar{
     position: fixed;

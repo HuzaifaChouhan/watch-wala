@@ -5,12 +5,19 @@ import reportWebVitals from './reportWebVitals';
 import Header from './header/header';
 import Main from './main/main';
 import Footer from './footer/footer';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import Brand from './brands/brand';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render( 
   <React.StrictMode>
     <Header/>
-    <Main/>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Main/>} />
+        <Route path='/brand' element={<Brand/>} />
+      </Routes>
+    </BrowserRouter>
     <Footer/>
   </React.StrictMode>
 );
