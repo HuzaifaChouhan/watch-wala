@@ -1,22 +1,52 @@
 import './footer.css';
-import footerlogo from '../images/watchwala-logo.png';
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
+import { BiLogoGmail } from "react-icons/bi";
 
 export default function Footer(){
     return(
         <footer>
-            <div className="footer-start">
-                <img src={footerlogo} alt="footer-logo" className='footer-logo'/>
+            <div id="footer" class="footer0">
+            <h1>Watch Wala</h1>
             </div>
-            <div className="footer-r">
-                <h2 className="footer-h2">Links</h2>
-                <p><a href="#" className="footer-p">Instagram</a></p><br/>
-                <p><a href="#" className="footer-p">Whatsapp</a></p>
-            </div>            
-            <div className="footer-r">
-                <h2 className="footer-h2">Contact Us</h2>
-                <p><a href="#" className="footer-p">+91259024914590</a></p>
-                <p><a href="#" className="footer-p">watchwala@gmail.com</a></p>
-            </div>            
+            <div class="footer1">Connect with us at
+                <div class="social-media">
+                    <a href="#"><FaInstagram/></a>
+                    <a href="#"><FaWhatsapp/></a>   
+                    <a href="#"><BiLogoGmail/></a>
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="product">
+                    <div class="heading">Products</div>
+                    <div class="div">Sell your Products</div>
+                    <div class="div">Advertise</div>
+                    <div class="div">Pricing</div>
+                    <div class="div">Product Buisness</div>
+                </div>
+                <div class="services">
+                    <div class="heading">Services</div>
+                    <div class="div">Return</div>
+                    <div class="div">Cash Back</div>
+                    <div class="div">Affiliate Marketing</div>
+                    <div class="div">Others</div>
+                </div> 
+                <div class="Company">
+                    <div class="heading">Company</div>
+                    <div class="div">Complaint</div>
+                    <div class="div">Careers</div>
+                    <div class="div">Affiliate Marketing</div>
+                    <div class="div">Support</div>
+                </div>
+                <div class="Get Help">
+                    <div class="heading">Get Help</div>
+                    <div class="div">Help Center</div>
+                    <div class="div">Privacy Policy</div>
+                    <div class="div">Terms</div>
+                    {/* <div class="div">Login</div> */}
+                </div>
+            </div>
+            <div class="footer3">Copyright © <h4>ShoPperZ</h4> 2021-2028</div>
         </footer>
     );
 }

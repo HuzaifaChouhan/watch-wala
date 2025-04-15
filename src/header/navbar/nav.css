@@ -12,7 +12,7 @@ nav ul{
 }
 nav li{
     /* border: 1px solid blue; */
-    height: 100px;
+    height: 70px;
 }
 .login{
     margin-left: auto;
@@ -31,7 +31,7 @@ nav a:hover{
 }
 
 .watchwala-logo{
-    height: 100px;
+    height: 70px;
     width: auto;
     margin-left: auto;
 }

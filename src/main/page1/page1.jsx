@@ -5,7 +5,7 @@ import diamondsvg from '../../images/diamond-svg.svg';
 import moneysvg from '../../images/money-svg.svg';
 
 export default function Page1(){
-    return(
+    return<>
         <div className="page1">
             <div className="page1-start">
                 <div className="page1-r">
@@ -21,8 +21,10 @@ export default function Page1(){
                     <p className='page1-start-r1'>Its something you can pass down, not just wear.</p>
                 </div>
             </div>
-            <img src={page1img} alt="page1-image" className='page1-img'/>
-            <h2 className='page1-h2'>Welcome</h2>
+            <div className="page1-img-box">
+                <img src={page1img} alt="page1-image" className='page1-img'/>
+                <h2 className='page1-h2'>Welcome</h2>
+            </div>
         </div>
-    );
+    </>;
 }

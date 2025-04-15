@@ -9,3 +9,13 @@
     width: 100%;
     padding: 0;
 }
+
+@media (max-width:450px){
+    .heropage{
+        height: 100vh;
+    }
+    .heropage-video{
+        height: 100%;
+        object-fit: cover;
+    }
+}
