@@ -1,0 +1,23 @@
+.brand-main{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    width: 100%;
+    height: 500px;
+}
+
+.brand-companies{
+    /* border-top:1px solid black ;
+    border-bottom:1px solid black; */
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.none{
+    display: none;
+}

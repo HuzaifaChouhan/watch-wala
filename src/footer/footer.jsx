@@ -2,12 +2,13 @@ import './footer.css';
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
+import watchwalalogo from '../images/watchwala-logo.png';
 
 export default function Footer(){
     return(
         <footer>
             <div id="footer" class="footer0">
-            <h1>Watch Wala</h1>
+            <img src={watchwalalogo} alt="watchwalalogo" />
             </div>
             <div class="footer1">Connect with us at
                 <div class="social-media">
