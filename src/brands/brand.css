@@ -2,22 +2,36 @@
     border-top:1px solid black;
     border-bottom:1px solid black;
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 
 .brand-companies{
-    /* border-top:1px solid black ;
-    border-bottom:1px solid black; */
-    width: 100%;
-    height: 200px;
+    /* border-top:1px solid black ;*/
+    /* border-bottom:1px solid black; */
+    /* width: 100%; */
+    height: 100%;
     background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 20px;
 }
 
 .none{
     display: none;
+}
+
+.brand-card{
+    /* border-top: 1px solid red;
+    border-bottom: 1px solid red; */
+    height:700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
 }
